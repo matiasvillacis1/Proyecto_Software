@@ -26,7 +26,7 @@ Desarrollar una **aplicación web** que permita:
 ## Diagramas del Sistema
 
 ### 1. Diagrama de Procesos
-![Diagrama de Procesos](Diagrama_de_Process.png)  
+![Diagrama de Procesos](Diagrama_de_Proceso.png)  
 *Flujo: Usuario → Sistema de turnos → Supervisor.*
 
 ### 2. Arquitectura del Sistema
