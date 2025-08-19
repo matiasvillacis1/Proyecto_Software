@@ -68,3 +68,53 @@ Desarrollar una **aplicación web** que permita:
 ### 9. Diagrama de Actividades
 ![Diagrama de Actividades](Diagrama_Actividades.drawio.png)  
 *Flujo completo del ciclo del turno.*
+
+### 10. Propuesta en Figma
+
+#### Bocetos iniciales:
+1. **Pantalla de inicio**:
+   - Selector de roles
+   - Menú principal
+
+2. **Agendamiento**:
+   - Calendario interactivo
+   - Selector de especialidades
+
+3. **Panel médico**:
+   - Listado de turnos por estado
+   - Botones de acción rápida
+
+#### Elementos clave:
+- **Paleta de colores**: Azul médico (#2A7F84) como primario
+- **Tipografía**: Montserrat para legibilidad
+- **Flujo**: [Ver prototipo](https://figma.com/ejemplo)
+
+
+### 11. Página Web – Centro Médico Solís
+
+#### Requisitos:
+- XAMPP (Apache + MySQL + PHP)
+- Navegador web moderno
+
+#### Instalación:
+1. **Configurar XAMPP**:
+   - Iniciar servicios Apache y MySQL
+   - Solucionar conflictos de puertos (terminar proceso "mysql" si es necesario)
+
+2. **Base de datos**:
+   - Crear BD: `proyectops`
+   - Importar archivo SQL via phpMyAdmin (`http://localhost/phpmyadmin`)
+
+3. **Despliegue**:
+   - Copiar carpeta del proyecto a: `C:\xampp\htdocs\`
+   - Acceder via: `http://localhost/copia/iniciarsesion.html`
+
+#### Pantallas principales:
+| Nombre           | Función                                  |
+|------------------|------------------------------------------|
+| Inicio           | Página principal con botones de acceso   |
+| Inicio de Sesión | Autenticación por rol (Paciente/Médico/Admin) |
+| Gestión Doctores | Administración de especialistas          |
+
+---
+
